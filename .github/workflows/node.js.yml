@@ -15,11 +15,11 @@ on:
    run: |
        npm install 
        npm run build
-   -name: Run a one-line script
+   - name: Run a one-line script
    run: echo Hello, world!
-    -name: Run a multi-line script
+    - name: Run a multi-line script
      run: |
      echo Add other actions to build, 
      echo test, and deploy your project.
-     -name: Run JS file for test
+     - name: Run JS file for test
      run: node js/script.js
